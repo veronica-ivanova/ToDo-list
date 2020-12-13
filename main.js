@@ -60,7 +60,6 @@ function addItem (e){
 // Удаление элемента - Функция
 function removeItem(e){
     if (
-        e.target.hasAttribute("data-action") && 
         e.target.getAttribute("data-action") == "delete"
     ){
         if (confirm("Удалить задачу?") ) {
